@@ -1,0 +1,1 @@
+export const cn = (...a: unknown[]) => a.filter(Boolean).join(' ');
